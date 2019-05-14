@@ -2,7 +2,7 @@
 
 ## 概要
 
-* [M5Camera](https://docs.m5stack.com/#/en/unit/m5camera)を接続し、モーションセンサーが人の動きを検出したら、カメラで撮影した画像をLINEに通知、GoogleDriveにも保存します。
+* [M5Camera](https://docs.m5stack.com/#/en/unit/m5camera)に[モーションセンサー](https://www.seeedstudio.com/Grove-PIR-Motion-Sensor.html)接続し、モーションセンサーが人の動きを検出したら、カメラで撮影した画像をLINEに通知、GoogleDriveにも保存します。
 * LINEにアップロード可能な画像は制限があるため、LINEへの通知は１分のインターバルを設定しています。
 * GoogleDriveには検出するたびに画像をアップロードします。
 
